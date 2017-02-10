@@ -13,6 +13,9 @@ Api exporta os dados do db da aplicação www.cadalunos.heroku.com
 
 <strong>Atenção: Os dados do banco de dados são inseridos no arquivo .env na pasta raiz da aplicação! Esses dados são mantindos em segurança.</strong>
 
+Lembre-se: o driver do DB Postgresql (pgsql) deve ser dá mesma versão do PHP, caso contrário, terá erros.
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
